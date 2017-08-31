@@ -11,7 +11,7 @@ Vcs-Git: git://github.com/eduvpn-debian/php-oauth2-client.git
 Vcs-Browser: https://github.com/eduvpn-debian/php-oauth2-client/
 
 Package: php-fkooman-oauth2-client
-Architecture: any
+Architecture: all
 # TODO: generates illegal php-paragonie-random_compat
 #Depends: ${misc:Depends}, ${phpcomposer:Debian-require}
 Depends: ${misc:Depends}, php-common, php-curl, php-json, php-paragonie-random-compat,
