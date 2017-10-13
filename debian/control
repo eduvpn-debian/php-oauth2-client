@@ -1,5 +1,5 @@
 Source: php-oauth2-client
-Section: web
+Section: php
 Priority: optional
 Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
 Build-Depends: debhelper (>= 9), phpunit, php-paragonie-constant-time-encoding,
@@ -18,3 +18,6 @@ Depends: ${misc:Depends}, php-common, php-curl, php-json, php-paragonie-random-c
  php-common
 Suggests: ${phpcomposer:Debian-suggest}
 Description: ${phpcomposer:description}
+ A very simple to use OAuth 2.0 client. It has minimal dependencies. If you are
+ not bound to PHP 5.4, you are probably better of using the OAuth 2.0 client
+ of the League of Extraordinary Packages.
